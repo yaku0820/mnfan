@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* border-bottom: 1px solid #393939;
+background: rgba(34, 34, 34, 0.8); */
+
+body{
+    background:#212121 ;
+}
+.container{
+    width: 100%;
+    height: 61px;
+    border-bottom:1px solid rgba(95, 94, 94, 0.8);
+    display: flex;
+    justify-content: space-between;
+}
+.container .img{
+    width: 15%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-left: 6px;
+}
+.container .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item{
+    width: 10%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.item .item-item{
+    width: 33.3%;
+    height: 100%;
+    /* background-color: rgb(30, 20, 6); */
+    border-left: 1px solid rgba(101, 100, 100, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item .item-item i{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-2{
+    width: 100%;
+    margin-top: 20px;
+}
+.con{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.conn{
+    width: 24%;
+    height: 200px;
+    /* background-color: cornflowerblue; */
+    border-radius: 20px;
+    position: relative;
+}
+.container-2 .con .conn img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.filter{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0,1),rgba(0, 0, 0, 0));
+    border-radius: 20px;
+}
+.filter p{
+    margin-top: 170px;
+    margin-left: 5px;
+    color: white;
+    transition: all 1s;
+}
+.container-2 .con .conn .filter:hover p{
+    color: red;
+    transition: all 1s;
+}
